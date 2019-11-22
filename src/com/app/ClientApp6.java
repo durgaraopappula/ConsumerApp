@@ -6,6 +6,7 @@ import com.sun.jersey.api.client.WebResource;
 
 public class ClientApp6 {
 	public static void main(String[] args) {
+		System.out.println("Hello");
 		String URL="http://localhost:2020/ProviderTest6/rest/user/service";
 		Client c=Client.create();
 		WebResource wr=c.resource(URL);
